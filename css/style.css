@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: #222222;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logotipo {
+    display: flex;
+    align-items: center;
+    margin: 1%;
+    gap: 8%;
+}
+
+.empresa{
+    font-size: 150%;
+    font-weight: bolder;
+    color: #F3F3F3;
+}
+
+.pizza{
+    color: #39B24A;
+}
+
+.front{
+    color: #FC200C;
+}
+
+.menu li, .item-nav, .menu-footer li{
+    text-decoration: none;
+    color: #F3F3F3;
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: 300;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: flex-end;
+    margin: 3%;
+    gap: 10%;
+    padding: 0 5%;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+    margin: 4% 2%;
+}
+
+.delivery{
+    background-image: url(../img/delivery.jpg);
+    background-repeat: round;
+    background-size: contain;
+}
